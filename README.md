@@ -1,7 +1,7 @@
 # SQL Database Normalization with Python
 
 ## Introduction
-This project focuses on demonstrating SQL database normalization techniques, up to the third normal form (3NF), using Python. The goal is to organize a database efficiently to reduce redundancy and improve data integrity. It includes automated data generation for a sales transaction dataset, utilizing the **Faker** Python library. Faker creates realistic sales transactions, simulating customer, product, and order data.
+This project focuses on demonstrating SQL database normalization techniques, up to the third normal form (4NF), using Python. The goal is to organize a database efficiently to reduce redundancy and improve data integrity. It includes automated data generation for a sales transaction dataset, utilizing the **Faker** Python library. Faker creates realistic sales transactions, simulating customer, product, and order data.
 
 An automation pipeline is also set up in the `.github/workflows` directory using GitHub Actions. This pipeline automates the process of generating data and updating the database with each new commit, ensuring fresh data is consistently available for normalization scripts.
 
@@ -27,7 +27,7 @@ An automation pipeline is also set up in the `.github/workflows` directory using
 3. Run the SQL normalization scripts like normalisation.sql.
 ## Features
 - Data generation and loading scripts.
-- SQL scripts for normalization up to 3NF.
+- SQL scripts for normalization up to 4NF.
 - Sample database schema and data included.
 ## Dependencies
 - Python
